@@ -21,7 +21,7 @@ def send_echo(message):
 
     temp = w.temperature('celsius')["temp"]
 
-    #ANSWERS FROM BOT
+    #REPLY FROM BOT
     answer = "Now in the city of " + message.text  + str(w.detailed_status) + "\n"
     answer += "Tempeture now in city " + str(temp) + "\n\n"
 
